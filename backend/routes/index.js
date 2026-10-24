@@ -23,5 +23,6 @@ router.use('/delivery-slots', require('./delivery-slots'));
 router.use('/reviews', require('./reviews'));
 router.use('/notifications', require('./notifications'));
 router.use('/staff', require('./staff'));
+router.use('/roles', require('./roles'));
 
 module.exports = router;
