@@ -8,6 +8,7 @@ var MENU = [
   ['suppliers', 'Suppliers'],
   ['orders', 'Orders'],
   ['customers', 'Customers'],
+  ['payments', 'Payments'],
 ];
 var current = (location.pathname.split('/').pop() || 'index.html').replace('.html', '');
 document.getElementById('menu').innerHTML = MENU.map(function (m) {
