@@ -1,0 +1,20 @@
+/* Khodiyar Grocery - storefront styles */
+:root { --green: #2e7d32; --green-dark: #1b5e20; --bg: #f6f8f5; --text: #222; --muted: #666; --card: #fff; }
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: system-ui, "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--text); }
+.topbar { display: flex; align-items: center; justify-content: space-between; padding: 14px 32px;
+  background: var(--green); color: #fff; position: sticky; top: 0; z-index: 10; }
+.logo { color: #fff; font-weight: 700; font-size: 22px; text-decoration: none; }
+#nav { display: flex; gap: 16px; flex-wrap: wrap; }
+#nav a { color: #fff; text-decoration: none; font-size: 14px; }
+#nav a:hover { text-decoration: underline; }
+.menu-toggle { display: none; background: none; border: 0; color: #fff; font-size: 24px; cursor: pointer; }
+.container { max-width: 1200px; margin: 0 auto; padding: 32px; }
+h1 { margin-bottom: 8px; color: var(--green-dark); }
+.lead { color: var(--muted); margin-bottom: 24px; }
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 20px; }
+.card { background: var(--card); border-radius: 12px; padding: 18px; box-shadow: 0 2px 8px rgba(0,0,0,.06); }
+.card h3 { font-size: 17px; margin-bottom: 6px; }
+.empty { color: var(--muted); }
+.error { color: #c62828; }
+.footer { text-align: center; padding: 24px; color: var(--muted); font-size: 14px; }
