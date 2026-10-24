@@ -1,0 +1,4 @@
+/* Khodiyar Grocery - mobile view: tables */
+@media (max-width: 900px) {
+  .data-table{display:block;overflow-x:auto;white-space:nowrap}
+}
