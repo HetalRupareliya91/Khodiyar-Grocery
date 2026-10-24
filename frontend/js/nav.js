@@ -13,6 +13,7 @@ var NAV_LINKS = [
   ['account', 'My Account'],
   ['reviews', 'Customer Reviews'],
   ['coupons', 'Coupons'],
+  ['notifications', 'Notifications'],
 ];
 document.getElementById('nav').innerHTML = NAV_LINKS.map(function (l) {
   return '<a href="' + l[0] + '.html">' + l[1] + '</a>';
