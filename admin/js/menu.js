@@ -1,6 +1,7 @@
 // Khodiyar Grocery Admin - sidebar menu
 var MENU = [
   ['index', 'Dashboard'],
+  ['products', 'Products'],
 ];
 var current = (location.pathname.split('/').pop() || 'index.html').replace('.html', '');
 document.getElementById('menu').innerHTML = MENU.map(function (m) {
