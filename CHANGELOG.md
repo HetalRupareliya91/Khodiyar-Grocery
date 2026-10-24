@@ -12,3 +12,4 @@
 - Mobile view: responsive admin-topbar (up to 900px)
 - Mobile view: responsive tables (up to 900px)
 - Mobile view: responsive buttons (up to 768px)
+- Mobile view: responsive small-phones (up to 420px)
