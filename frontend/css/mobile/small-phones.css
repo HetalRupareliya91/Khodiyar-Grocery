@@ -1,0 +1,4 @@
+/* Khodiyar Grocery - mobile view: small-phones */
+@media (max-width: 420px) {
+  .grid{grid-template-columns:1fr} .logo{font-size:16px}
+}
