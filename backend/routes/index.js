@@ -20,5 +20,6 @@ router.use('/coupons', require('./coupons'));
 router.use('/offers', require('./offers'));
 router.use('/deliveries', require('./deliveries'));
 router.use('/delivery-slots', require('./delivery-slots'));
+router.use('/reviews', require('./reviews'));
 
 module.exports = router;
