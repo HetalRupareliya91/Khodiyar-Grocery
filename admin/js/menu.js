@@ -5,6 +5,7 @@ var MENU = [
   ['categories', 'Categories'],
   ['brands', 'Brands'],
   ['inventory', 'Inventory'],
+  ['suppliers', 'Suppliers'],
 ];
 var current = (location.pathname.split('/').pop() || 'index.html').replace('.html', '');
 document.getElementById('menu').innerHTML = MENU.map(function (m) {
