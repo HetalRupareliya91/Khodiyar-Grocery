@@ -24,5 +24,6 @@ router.use('/reviews', require('./reviews'));
 router.use('/notifications', require('./notifications'));
 router.use('/staff', require('./staff'));
 router.use('/roles', require('./roles'));
+router.use('/settings', require('./settings'));
 
 module.exports = router;
