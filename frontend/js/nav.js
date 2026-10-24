@@ -10,6 +10,7 @@ var NAV_LINKS = [
   ['orders', 'My Orders'],
   ['track-order', 'Track Order'],
   ['wishlist', 'Wishlist'],
+  ['account', 'My Account'],
 ];
 document.getElementById('nav').innerHTML = NAV_LINKS.map(function (l) {
   return '<a href="' + l[0] + '.html">' + l[1] + '</a>';
