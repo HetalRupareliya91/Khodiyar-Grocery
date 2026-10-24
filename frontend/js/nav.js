@@ -5,6 +5,7 @@ var NAV_LINKS = [
   ['categories', 'Categories'],
   ['brands', 'Brands'],
   ['offers', 'Offers and Deals'],
+  ['cart', 'My Cart'],
 ];
 document.getElementById('nav').innerHTML = NAV_LINKS.map(function (l) {
   return '<a href="' + l[0] + '.html">' + l[1] + '</a>';
