@@ -1,0 +1,4 @@
+/* Khodiyar Grocery - mobile view: buttons */
+@media (max-width: 768px) {
+  .btn-danger{padding:10px 14px;font-size:14px} button{min-height:40px}
+}
