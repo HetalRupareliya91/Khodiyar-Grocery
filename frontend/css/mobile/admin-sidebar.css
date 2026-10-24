@@ -1,0 +1,4 @@
+/* Khodiyar Grocery - mobile view: admin-sidebar */
+@media (max-width: 900px) {
+  .sidebar{left:-230px;transition:left .25s ease} .sidebar.open{left:0;box-shadow:4px 0 16px rgba(0,0,0,.2)}
+}
