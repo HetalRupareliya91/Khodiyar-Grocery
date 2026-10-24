@@ -1,0 +1,4 @@
+/* Khodiyar Grocery - mobile view: navigation */
+@media (max-width: 768px) {
+  #nav{display:none;position:absolute;top:100%;left:0;right:0;flex-direction:column;gap:0;background:var(--green-dark)} #nav.open{display:flex} #nav a{padding:12px 16px;border-top:1px solid rgba(255,255,255,.1)}
+}
