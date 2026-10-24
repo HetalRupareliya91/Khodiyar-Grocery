@@ -12,6 +12,7 @@ var MENU = [
   ['coupons', 'Coupons'],
   ['deliveries', 'Deliveries'],
   ['reviews', 'Reviews'],
+  ['staff', 'Staff'],
 ];
 var current = (location.pathname.split('/').pop() || 'index.html').replace('.html', '');
 document.getElementById('menu').innerHTML = MENU.map(function (m) {
