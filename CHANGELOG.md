@@ -5,3 +5,4 @@
 - Mobile view: responsive navigation (up to 768px)
 - Mobile view: responsive layout (up to 768px)
 - Mobile view: responsive product-grid (up to 768px)
+- Mobile view: responsive cards (up to 768px)
