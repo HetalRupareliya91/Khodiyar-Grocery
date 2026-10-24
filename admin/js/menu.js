@@ -3,6 +3,7 @@ var MENU = [
   ['index', 'Dashboard'],
   ['products', 'Products'],
   ['categories', 'Categories'],
+  ['brands', 'Brands'],
 ];
 var current = (location.pathname.split('/').pop() || 'index.html').replace('.html', '');
 document.getElementById('menu').innerHTML = MENU.map(function (m) {
