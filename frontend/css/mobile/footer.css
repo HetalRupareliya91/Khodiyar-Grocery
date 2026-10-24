@@ -1,0 +1,4 @@
+/* Khodiyar Grocery - mobile view: footer */
+@media (max-width: 768px) {
+  .footer{padding:16px;font-size:13px}
+}
