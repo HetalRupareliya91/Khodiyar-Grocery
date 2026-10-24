@@ -21,5 +21,6 @@ router.use('/offers', require('./offers'));
 router.use('/deliveries', require('./deliveries'));
 router.use('/delivery-slots', require('./delivery-slots'));
 router.use('/reviews', require('./reviews'));
+router.use('/notifications', require('./notifications'));
 
 module.exports = router;
